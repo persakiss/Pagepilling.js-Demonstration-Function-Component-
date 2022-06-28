@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React, { useEffect} from 'react';
 import $ from 'jquery';
 import './jquery.pagepiling';
 import './jquery.pagepiling.css';
 import './index.css';
 
-export default class Main extends Component {
-    componentDidMount(){
+export default function Main() {
+    useEffect(() => {
         $(document).ready(function() {
             $('#pagepiling').pagepiling({
                 navigation: {
@@ -16,8 +16,8 @@ export default class Main extends Component {
                 }
             })
         })
-    }
-    render() {
+    })
+
         return (
             <div id="pagepiling">
                 <div class="section sec1"><h1>Water</h1></div>
@@ -27,5 +27,5 @@ export default class Main extends Component {
                 <div class="section sec5"><h1>Sky</h1></div>
             </div>
         )
-    }
+    
 }
