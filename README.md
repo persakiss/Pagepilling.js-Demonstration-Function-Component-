@@ -2,7 +2,7 @@
 
 This is a demonstration of how to use [pagepiling.js](https://alvarotrigo.com/pagePiling/) within the React App to achieve full page parallax scroll in your site.
 
-Original by @am-chourasia. All I've did was change from class component (and ComponentDidMount) to functional component (and useEffect).
+Original by [@am-chourasia](https://github.com/am-chourasia). All I've done was update it a bit from class component (and ComponentDidMount) to functional component (and useEffect).
 
 ### For preview, run the following script:
 
