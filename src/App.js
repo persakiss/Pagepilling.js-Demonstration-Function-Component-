@@ -4,7 +4,7 @@ import './jquery.pagepiling';
 import './jquery.pagepiling.css';
 import './index.css';
 
-export default function Main() {
+export default function App() {
     useEffect(() => {
         $(document).ready(function() {
             $('#pagepiling').pagepiling({
